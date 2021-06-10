@@ -1,4 +1,4 @@
-const debounce = require('lodash.debounce');
+import debounce from 'lodash.debounce';
 
 import fetchCountries from './fetchCountries';
 import countriesListTpl from '../templates/countriesTpl.hbs';
